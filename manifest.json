@@ -1,0 +1,35 @@
+{
+    "manifest_version": 3,
+    "name": "My News Extension",
+    "version": "1.0",
+    "description": "Get up-to-date news headlines right in your Chrome browser!",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "news-icon-24.png",
+        "48": "news-icon-24.png",
+        "128": "news-icon-24.png"
+      }
+    },
+    "icons": {
+      "16": "news-icon-24.png",
+      "48": "news-icon-24.png",
+      "128": "news-icon-24.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "news-icon-24.png"
+    },
+    "permissions": [
+      "storage",
+      "activeTab"
+    ],
+    "host_permissions": [
+      "https://newsapi.org/"
+    ]
+  }
+  
