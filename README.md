@@ -8,6 +8,10 @@ This is a simple Chrome extension that allows users to fetch and read news artic
 - Display top headlines for the selected category.
 - Open news articles in a new tab for reading.
 
+## Demo
+
+ <img alt="Demo" src="news extension 2.png" />
+
 ## Installation
 
 1. Clone or download the repository to your local machine.
